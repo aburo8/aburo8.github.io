@@ -1,6 +1,6 @@
 # Hello World
 
-Welcome to my first (of many) blog post!
+Welcome to my first (of many) blog posts!
 
 ## Who am I?
 
@@ -15,3 +15,5 @@ I love everything electrical/computer related but have a keen interest in the fo
 - Cloud Computing & IoT
 
 I hope you get something out of reading through my blog posts and experiences.
+
+![](images/DSC_8206_edited_marked.jpg "A moment Alex Caputured.\n© 2022 AB Photography")
