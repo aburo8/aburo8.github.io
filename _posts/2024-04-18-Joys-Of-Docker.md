@@ -12,9 +12,9 @@ For Deep Learning working in containers is favourable, as you can maintain a con
 
 Whilst Docker enables you to work in containerised instances and do some pretty incredible things, if you are constantly trying to spin up new containers, this will chew through your available disk space. This is a lesson I learnt the hard way, where I basically ran out of storage completely and my completely and my computer was running **EXTREMELY** slow.
 
-![Available PC Storage (Low)](../images/device%20storage.PNG "Available Disk Storage")
+![Available PC Storage (Low)](../images/device_storage.PNG "Available Disk Storage")
 
-![Docker Disk Usage](../images/docker%20disk%20usage.PNG "Docker Disk Utility View")
+![Docker Disk Usage](../images/docker_disk_usage.PNG "Docker Disk Utility View")
 
 As you can see I have ~40GB of storage being used by docker containers and images.
 
@@ -29,4 +29,4 @@ To move all your data follow the below steps:
 
 **SOLVED** - As you can see my docker data is now distributed to another drive in my machine.
 
-![Available PC Storage (High)](../images/device%20storage%20updates.PNG "PC Storage Available After Switching Docker Disk Drive")
+![Available PC Storage (High)](../images/device_storage_updated.PNG "PC Storage Available After Switching Docker Disk Drive")
