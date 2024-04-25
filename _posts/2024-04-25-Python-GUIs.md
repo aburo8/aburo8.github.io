@@ -8,7 +8,7 @@ This means that it is not always feasible to spend hours on UI/UX design for a G
 
 A lot of people seem to be conflicted with this challenge and as such new technologies and applications are constantly being created to streamline UI/UX design for prototyping. Personally, I am really fond of the *PyQt Designer* tool. This tool is a drag-drop interactive UI design tool, which is compatible with the well known QT framework. It allows you to swiftly mock up and develop functional and nice looking GUIs.
 
-![QT Designer Example](<../images/QT designer example.PNG> "Using QT Designer to Develop a GUI for ELEC4630")
+![QT Designer Example](/images/QT designer example.PNG "Using QT Designer to Develop a GUI for ELEC4630")
 
 In this example, I have used the QT designer to develop a GUI for an ELEC4630 assignment. After you settle on a design for your user interface, you can import your UI file into a Python file and map the relevant functionality to all of your components. In the code below, you can see I first instantiate a `MainWindow` class and load the UI file for the window. After this, I link all of the UI components that I added to the designer to class variables so I can access them in all of the class methods. Note, that this linking is done by using the component type and name. Lastly, after linking the components, I linked some functions to the button click triggers so that the performs certain tasks when different buttons are clicked.
 

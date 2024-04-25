@@ -10,9 +10,9 @@ The results I observed, was that once the batch size was increased past the size
 
 {% include alert.html text="IMPORTANT! All of the tests were conducted on an NVIDIA 3060 12GB GPU and an Intel i7-8700k CPU. Both devices were running at the standard clock configurations." %}
 
-![GPU/CPU Utilisation](../images/q3_gpu_utilisation_graph.PNG "GPU Load and Memory Utilisation when Varying the Batch Size")
+![GPU/CPU Utilisation](/images/q3_gpu_utilisation_graph.PNG "GPU Load and Memory Utilisation when Varying the Batch Size")
 
-![CPU/GPU Training Time](../images/q3_train_time_table.PNG "Difference in Training Time CPU vs GPU")
+![CPU/GPU Training Time](/images/q3_train_time_table.PNG "Difference in Training Time CPU vs GPU")
 
 Another observation with regards to the GPU video memory utilisation was that it was not being correctly released after training each batch size. This is because when working in a Jupyter notebook, the GPU memory is not released until the the kernel restarted or the memory is manually purged. In order to manually purge the memory the following line of code can be inserted after training the model to release the memory `torch.cuda.empty_cache()`.
 
