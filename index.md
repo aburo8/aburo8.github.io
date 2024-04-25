@@ -1,4 +1,4 @@
-# Welcome to Alex's Dev Blog!
+# Welcome to Alex's Blog!
 
 Hello and welcome to my development blog. This blog series will detail the inner workings of my projects!
 
