@@ -63,7 +63,7 @@ The first line instantiates the `Learner` object. Think of this as a bundle of y
 
 ## 3 - Running Inference
 
-After model training is complete the inbuilt functions within the *fastai* frame work can be utilised to run inference on the model. For example, if you model is a multi-class classifier, it can be useful to us the `ClassificationInterpretation` methods availble within *fastai* to run inference and evaluate the model performance.
+After model training is complete the inbuilt functions within the *fastai* frame work can be utilised to run inference on the model. For example, if you model is a multi-class classifier, it can be useful to us the `ClassificationInterpretation` methods available within *fastai* to run inference and evaluate the model performance.
 
 ```python
 # Get predictions and targets

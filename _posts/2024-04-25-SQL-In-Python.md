@@ -36,7 +36,7 @@ if not database_exists:
 
 Since this is a sql database, SQL queries are executed to interact with the database, this includes adding/removing/updating data within the tables.
 
-An example of adding a fingerprint image to the database can be seen below. 
+An example of adding a fingerprint image to the database can be seen below.
 
 ```python
 cursor.execute('''INSERT INTO images (name, image_data, minutia, local_structures) VALUES (?, ?, ?, ?)''', (name, imageData, minutiaBytes, localStructuresBytes))

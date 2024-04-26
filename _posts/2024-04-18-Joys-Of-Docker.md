@@ -10,7 +10,7 @@ For Deep Learning working in containers is favourable, as you can maintain a con
 
 ## Error 1 - Device Storage
 
-Whilst Docker enables you to work in containerised instances and do some pretty incredible things, if you are constantly trying to spin up new containers, this will chew through your available disk space. This is a lesson I learnt the hard way, where I basically ran out of storage completely and my completely and my computer was running **EXTREMELY** slow.
+Whilst Docker enables you to work in containerised instances and do some pretty incredible things, if you are constantly trying to spin up new containers, this will chew through your available disk space. This is a lesson I learnt the hard way, where I basically ran out of storage completely and my computer was running **EXTREMELY** slow.
 
 ![Available PC Storage (Low)](/images/device_storage.PNG "Available Disk Storage")
 
